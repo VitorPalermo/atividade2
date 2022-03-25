@@ -15,18 +15,25 @@
 
         /* zerar a margem e padding do corpo da pag */
         body{
-            margin: 0px;
+            margin: 10px;
             width: 1000px;
-            margin: 0 auto;
+            margin: 20px auto;
+            border: 2px solid #000;
+            /* dashed, dotted, double */
+            border-radius: 4px;
+            padding: 10px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            background-color: rgb(70, 179, 243);
         }
 
         h2{
             color: rgba(4, 0, 255, 0.466);
-            
+            padding: 10px;
         }
 
         h3{
             color: rgb(0, 0, 0);
+            padding: 10px;
 
         }
 
@@ -34,13 +41,39 @@
             color: rgb(255, 0, 0);
         }
 
-        body{
-            color: rgb(8, 238, 38);
-        }
-        body{
-            background-color: black;
-        }
+      
     
+
+        li{
+            list-style-type: circle;
+        }
+
+        a{
+            color: rgb(255, 0, 0);
+            text-decoration: none;
+        }
+        
+        a :hover{
+            color: rgb(138, 32, 32);
+            font-weight: bold;
+        }
+
+        small{
+        margin: 0 20px;
+        }
+
+        img{
+            margin: 0 auto;
+            display: block;
+        }
+
+        html{ background-color: rgb(78, 78, 78);
+
+        }
+        hr{
+            border-color: blue;
+            height: 5px;
+        }
     </style>
 
 
@@ -52,7 +85,7 @@
     <img src="img/logo github.png" alt="logo github" width="300px ">
     </a>
 
-    <h1 style="color: rgb(255, 255, 255);background-color: rgb(11, 11, 73);padding: 15px;text-align: center;">Conhecendo GITHUB</h1>
+    <h1 style="color: rgb(255, 255, 255);background-color: rgb(11, 11, 73);padding: 15px; text-align: center;letter-spacing: 5px;">Conhecendo GITHUB</h1>
     
     <h2>Realizando COMMITS</h2>
     <ul>
@@ -118,7 +151,7 @@
 
         </ul>
 
-        <p>Desenvolvido por: <b>Vitor</b></p>
+        <p>&reg;Desenvolvido por: <b>Vitor</b></p>
 
         <a href="mailto:Vitorpalermo1488@gmail.com">
         <small>Vitorpalermo1488@gmail.com</small>
